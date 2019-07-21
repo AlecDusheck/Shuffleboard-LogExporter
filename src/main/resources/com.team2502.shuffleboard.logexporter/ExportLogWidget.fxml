@@ -4,5 +4,5 @@
 <?import javafx.scene.control.Button ?>
 
 <GridPane xmlns:fx="http://javafx.com/fxml/1" fx:id="pane" fx:controller="com.team2502.shuffleboard.logexporter.ExportLogWidget">
-    <Button text="Push Me" GridPane.ColumnIndex="0" GridPane.RowIndex="0" GridPane.RowSpan="2" onAction="#onLogExport"/>
+    <Button text="Push Me" GridPane.ColumnIndex="0" GridPane.RowIndex="0" GridPane.RowSpan="2" onAction="#onExportLog"/>
 </GridPane>
