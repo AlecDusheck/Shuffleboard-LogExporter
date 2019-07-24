@@ -1,5 +1,6 @@
 plugins {
     `java-library`
+    id("org.openjfx.javafxplugin") version "0.0.7"
 }
 
 repositories {
@@ -12,4 +13,9 @@ repositories {
 
 dependencies {
     compileOnly(group = "edu.wpi.first.shuffleboard", name = "api", version = "1.3.1")
+}
+
+javafx {
+    version = "12"
+    modules("javafx.controls", "javafx.fxml")
 }
