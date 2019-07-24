@@ -19,3 +19,7 @@ javafx {
     version = "12"
     modules("javafx.controls", "javafx.fxml")
 }
+
+tasks.wrapper {
+    distributionType = Wrapper.DistributionType.ALL
+}
